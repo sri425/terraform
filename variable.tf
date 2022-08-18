@@ -10,9 +10,6 @@ variable "subnet_cidr" {
 variable "ami_id" {
   default = "ami-090fa75af13c156b4"
 }
-variable "mysubnet_id" {
-  default ="aws_subnet.subnet1.id"
-}
 
 variable "ec2_count" {
   default = "1"
